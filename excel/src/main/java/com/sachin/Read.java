@@ -31,9 +31,6 @@ public class Read {
 					while (cellIterator.hasNext()) {
 						Cell cell = cellIterator.next();
 						String cellValue = dataFormatter.formatCellValue(cell);
-						// if(cell.getCellType() == CellType.STRING) {
-						//
-						// }
 						System.out.print(cellValue + "\t");
 					}
 					System.out.println();
